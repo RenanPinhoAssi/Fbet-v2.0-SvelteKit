@@ -4696,12 +4696,12 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/stores-bdcb6b5a.js
+// .svelte-kit/output/server/chunks/stores-df34e625.js
 var getStores, page;
-var init_stores_bdcb6b5a = __esm({
-  ".svelte-kit/output/server/chunks/stores-bdcb6b5a.js"() {
+var init_stores_df34e625 = __esm({
+  ".svelte-kit/output/server/chunks/stores-df34e625.js"() {
     init_shims();
-    init_app_7b358a45();
+    init_app_a365b8df();
     getStores = () => {
       const stores = getContext("__svelte__");
       return {
@@ -4729,17 +4729,17 @@ var init_stores_bdcb6b5a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-6cbab8b4.js
-var layout_6cbab8b4_exports = {};
-__export(layout_6cbab8b4_exports, {
+// .svelte-kit/output/server/chunks/__layout-fb617700.js
+var layout_fb617700_exports = {};
+__export(layout_fb617700_exports, {
   default: () => _layout
 });
 var Header, _layout;
-var init_layout_6cbab8b4 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-6cbab8b4.js"() {
+var init_layout_fb617700 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-fb617700.js"() {
     init_shims();
-    init_app_7b358a45();
-    init_stores_bdcb6b5a();
+    init_app_a365b8df();
+    init_stores_df34e625();
     Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { visible } = $$props;
       if ($$props.visible === void 0 && $$bindings.visible && visible !== void 0)
@@ -4762,9 +4762,9 @@ var init_layout_6cbab8b4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/error-9e7c016f.js
-var error_9e7c016f_exports = {};
-__export(error_9e7c016f_exports, {
+// .svelte-kit/output/server/chunks/error-a0890507.js
+var error_a0890507_exports = {};
+__export(error_a0890507_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4772,10 +4772,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_9e7c016f = __esm({
-  ".svelte-kit/output/server/chunks/error-9e7c016f.js"() {
+var init_error_a0890507 = __esm({
+  ".svelte-kit/output/server/chunks/error-a0890507.js"() {
     init_shims();
-    init_app_7b358a45();
+    init_app_a365b8df();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4795,12 +4795,12 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/section_identifier-3d6a83c2.js
+// .svelte-kit/output/server/chunks/section_identifier-8179e7b1.js
 var Section_identifier;
-var init_section_identifier_3d6a83c2 = __esm({
-  ".svelte-kit/output/server/chunks/section_identifier-3d6a83c2.js"() {
+var init_section_identifier_8179e7b1 = __esm({
+  ".svelte-kit/output/server/chunks/section_identifier-8179e7b1.js"() {
     init_shims();
-    init_app_7b358a45();
+    init_app_a365b8df();
     Section_identifier = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { section_name = "" } = $$props;
       let { section_description = "" } = $$props;
@@ -4821,17 +4821,17 @@ var init_section_identifier_3d6a83c2 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/index-1e63c0e5.js
-var index_1e63c0e5_exports = {};
-__export(index_1e63c0e5_exports, {
+// .svelte-kit/output/server/chunks/index-ceeb3cac.js
+var index_ceeb3cac_exports = {};
+__export(index_ceeb3cac_exports, {
   default: () => Tournaments
 });
 var Tourney_card, Tournaments;
-var init_index_1e63c0e5 = __esm({
-  ".svelte-kit/output/server/chunks/index-1e63c0e5.js"() {
+var init_index_ceeb3cac = __esm({
+  ".svelte-kit/output/server/chunks/index-ceeb3cac.js"() {
     init_shims();
-    init_app_7b358a45();
-    init_section_identifier_3d6a83c2();
+    init_app_a365b8df();
+    init_section_identifier_8179e7b1();
     Tourney_card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { tourney_info } = $$props;
       let tourney_users = [];
@@ -4861,18 +4861,18 @@ var init_index_1e63c0e5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-4410429b.js
-var tourney_4410429b_exports = {};
-__export(tourney_4410429b_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-f7404c79.js
+var tourney_f7404c79_exports = {};
+__export(tourney_f7404c79_exports, {
   default: () => U5Btourneyu5D
 });
 var Grandprix_card, U5Btourneyu5D;
-var init_tourney_4410429b = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-4410429b.js"() {
+var init_tourney_f7404c79 = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-f7404c79.js"() {
     init_shims();
-    init_app_7b358a45();
-    init_stores_bdcb6b5a();
-    init_section_identifier_3d6a83c2();
+    init_app_a365b8df();
+    init_stores_df34e625();
+    init_section_identifier_8179e7b1();
     Grandprix_card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { grandprix_info } = $$props;
       let { tourney_id } = $$props;
@@ -4916,12 +4916,12 @@ var init_tourney_4410429b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/short_identifier-78bd3eea.js
+// .svelte-kit/output/server/chunks/short_identifier-3cc82a0e.js
 var Short_identifier;
-var init_short_identifier_78bd3eea = __esm({
-  ".svelte-kit/output/server/chunks/short_identifier-78bd3eea.js"() {
+var init_short_identifier_3cc82a0e = __esm({
+  ".svelte-kit/output/server/chunks/short_identifier-3cc82a0e.js"() {
     init_shims();
-    init_app_7b358a45();
+    init_app_a365b8df();
     Short_identifier = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { name } = $$props;
       if ($$props.name === void 0 && $$bindings.name && name !== void 0)
@@ -4931,19 +4931,19 @@ var init_short_identifier_78bd3eea = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-6b2f5f7f.js
-var tourney_grandprix_6b2f5f7f_exports = {};
-__export(tourney_grandprix_6b2f5f7f_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-cb9361f6.js
+var tourney_grandprix_cb9361f6_exports = {};
+__export(tourney_grandprix_cb9361f6_exports, {
   default: () => U5Btourneyu5D_u5Bgrandprixu5D
 });
 var Result_slot, U5Btourneyu5D_u5Bgrandprixu5D;
-var init_tourney_grandprix_6b2f5f7f = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-6b2f5f7f.js"() {
+var init_tourney_grandprix_cb9361f6 = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-cb9361f6.js"() {
     init_shims();
-    init_app_7b358a45();
-    init_stores_bdcb6b5a();
-    init_section_identifier_3d6a83c2();
-    init_short_identifier_78bd3eea();
+    init_app_a365b8df();
+    init_stores_df34e625();
+    init_section_identifier_8179e7b1();
+    init_short_identifier_3cc82a0e();
     Result_slot = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { choice_pilot = "" } = $$props;
       let { pilots_choice_name_by_id = {} } = $$props;
@@ -5009,16 +5009,16 @@ var init_tourney_grandprix_6b2f5f7f = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/index-e84ece42.js
-var index_e84ece42_exports = {};
-__export(index_e84ece42_exports, {
+// .svelte-kit/output/server/chunks/index-b9322a60.js
+var index_b9322a60_exports = {};
+__export(index_b9322a60_exports, {
   default: () => Login
 });
 var Login;
-var init_index_e84ece42 = __esm({
-  ".svelte-kit/output/server/chunks/index-e84ece42.js"() {
+var init_index_b9322a60 = __esm({
+  ".svelte-kit/output/server/chunks/index-b9322a60.js"() {
     init_shims();
-    init_app_7b358a45();
+    init_app_a365b8df();
     Login = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let account = {
         username: "Tester",
@@ -5044,19 +5044,19 @@ var init_index_e84ece42 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-b37eb737.js
-var tourney_grandprix_b37eb737_exports = {};
-__export(tourney_grandprix_b37eb737_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-b67f7498.js
+var tourney_grandprix_b67f7498_exports = {};
+__export(tourney_grandprix_b67f7498_exports, {
   default: () => U5Btourneyu5D_u5Bgrandprixu5D2
 });
 var Pole_position_slot, position_suffix, Race_position_slot, U5Btourneyu5D_u5Bgrandprixu5D2;
-var init_tourney_grandprix_b37eb737 = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-b37eb737.js"() {
+var init_tourney_grandprix_b67f7498 = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-b67f7498.js"() {
     init_shims();
-    init_app_7b358a45();
-    init_stores_bdcb6b5a();
-    init_section_identifier_3d6a83c2();
-    init_short_identifier_78bd3eea();
+    init_app_a365b8df();
+    init_stores_df34e625();
+    init_section_identifier_8179e7b1();
+    init_short_identifier_3cc82a0e();
     Pole_position_slot = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { choice_pilot = "" } = $$props;
       let { pilots = [] } = $$props;
@@ -5178,7 +5178,7 @@ var init_tourney_grandprix_b37eb737 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-7b358a45.js
+// .svelte-kit/output/server/chunks/app-a365b8df.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -6468,9 +6468,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-e5fbffed.js",
+      file: assets + "/_app/start-bebdb428.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-e5fbffed.js", assets + "/_app/chunks/vendor-16719633.js", assets + "/_app/chunks/singletons-12a22614.js"]
+      js: [assets + "/_app/start-bebdb428.js", assets + "/_app/chunks/vendor-16719633.js", assets + "/_app/chunks/singletons-12a22614.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6514,8 +6514,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, absolute, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css, Root, base, assets, user_hooks, template, options, default_settings, d, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_7b358a45 = __esm({
-  ".svelte-kit/output/server/chunks/app-7b358a45.js"() {
+var init_app_a365b8df = __esm({
+  ".svelte-kit/output/server/chunks/app-a365b8df.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -6677,7 +6677,7 @@ ${``}`;
       __proto__: null,
       [Symbol.toStringTag]: "Module"
     });
-    template = ({ head, body }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n\r\n<head>\r\n	<meta charset="utf-8" />\r\n	<link rel="icon" href="/images/content/logo.png" />\r\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_color_setup.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_typography.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_style.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/objects_style.css" />\r\n	<link rel="stylesheet" href="src/static/styles/color_setup.css" />\r\n	<link rel="stylesheet" href="src/static/styles/global_style.css" />\r\n	<link rel="stylesheet" href="src/static/styles/user_style.css" />\r\n\r\n	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"><\/script>\r\n	<script src="src/static/scripts/global/global.js"><\/script>\r\n	<script src="src/static/scripts/user/ready.js"><\/script>\r\n</head>\r\n\r\n<body>\r\n\r\n	' + head + '\r\n	<div id="svelte">' + body + "</div>\r\n</body>\r\n\r\n</html>";
+    template = ({ head, body }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n\r\n<head>\r\n	<meta charset="utf-8" />\r\n	<link rel="icon" href="/images/content/logo.png" />\r\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_color_setup.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_typography.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/theme_style.css" />\r\n	<link rel="stylesheet"\r\n		href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/objects_style.css" />\r\n	<!-- \r\n	<link rel="stylesheet" href="../src/static/styles/color_setup.css" />\r\n	<link rel="stylesheet" href="../src/static/styles/global_style.css" />\r\n	<link rel="stylesheet" href="../src/static/styles/user_style.css" />\r\n	 -->\r\n\r\n	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"><\/script>\r\n	<script src="../src/static/scripts/global/global.js"><\/script>\r\n	<script src="../src/static/scripts/user/ready.js"><\/script>\r\n</head>\r\n\r\n<body>\r\n\r\n	' + head + '\r\n	<div id="svelte">' + body + "</div>\r\n</body>\r\n\r\n</html>";
     options = null;
     default_settings = { paths: { "base": "", "assets": "" } };
     d = (s2) => s2.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
@@ -6731,15 +6731,15 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_6cbab8b4(), layout_6cbab8b4_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_9e7c016f(), error_9e7c016f_exports)),
-      "src/routes/tournaments/index.svelte": () => Promise.resolve().then(() => (init_index_1e63c0e5(), index_1e63c0e5_exports)),
-      "src/routes/schedule/[tourney].svelte": () => Promise.resolve().then(() => (init_tourney_4410429b(), tourney_4410429b_exports)),
-      "src/routes/results/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_6b2f5f7f(), tourney_grandprix_6b2f5f7f_exports)),
-      "src/routes/login/index.svelte": () => Promise.resolve().then(() => (init_index_e84ece42(), index_e84ece42_exports)),
-      "src/routes/bet/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_b37eb737(), tourney_grandprix_b37eb737_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_fb617700(), layout_fb617700_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_a0890507(), error_a0890507_exports)),
+      "src/routes/tournaments/index.svelte": () => Promise.resolve().then(() => (init_index_ceeb3cac(), index_ceeb3cac_exports)),
+      "src/routes/schedule/[tourney].svelte": () => Promise.resolve().then(() => (init_tourney_f7404c79(), tourney_f7404c79_exports)),
+      "src/routes/results/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_cb9361f6(), tourney_grandprix_cb9361f6_exports)),
+      "src/routes/login/index.svelte": () => Promise.resolve().then(() => (init_index_b9322a60(), index_b9322a60_exports)),
+      "src/routes/bet/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_b67f7498(), tourney_grandprix_b67f7498_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-dbdf601f.js", "css": [], "js": ["pages/__layout.svelte-dbdf601f.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-b886fd37.js", "css": [], "js": ["error.svelte-b886fd37.js", "chunks/vendor-16719633.js"], "styles": [] }, "src/routes/tournaments/index.svelte": { "entry": "pages/tournaments/index.svelte-12da326b.js", "css": [], "js": ["pages/tournaments/index.svelte-12da326b.js", "chunks/vendor-16719633.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/schedule/[tourney].svelte": { "entry": "pages/schedule/_tourney_.svelte-ac200376.js", "css": [], "js": ["pages/schedule/_tourney_.svelte-ac200376.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/results/[tourney]-[grandprix].svelte": { "entry": "pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "css": [], "js": ["pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/short_identifier-8530adf6.js"], "styles": [] }, "src/routes/login/index.svelte": { "entry": "pages/login/index.svelte-8229bb27.js", "css": [], "js": ["pages/login/index.svelte-8229bb27.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/bet/[tourney]-[grandprix].svelte": { "entry": "pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "css": [], "js": ["pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/short_identifier-8530adf6.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-7471b837.js", "css": ["assets/pages/__layout.svelte-f178ea22.css"], "js": ["pages/__layout.svelte-7471b837.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-b886fd37.js", "css": [], "js": ["error.svelte-b886fd37.js", "chunks/vendor-16719633.js"], "styles": [] }, "src/routes/tournaments/index.svelte": { "entry": "pages/tournaments/index.svelte-12da326b.js", "css": [], "js": ["pages/tournaments/index.svelte-12da326b.js", "chunks/vendor-16719633.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/schedule/[tourney].svelte": { "entry": "pages/schedule/_tourney_.svelte-ac200376.js", "css": [], "js": ["pages/schedule/_tourney_.svelte-ac200376.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/results/[tourney]-[grandprix].svelte": { "entry": "pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "css": [], "js": ["pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/short_identifier-8530adf6.js"], "styles": [] }, "src/routes/login/index.svelte": { "entry": "pages/login/index.svelte-8229bb27.js", "css": [], "js": ["pages/login/index.svelte-8229bb27.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/bet/[tourney]-[grandprix].svelte": { "entry": "pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "css": [], "js": ["pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/short_identifier-8530adf6.js"], "styles": [] } };
   }
 });
 
@@ -6751,7 +6751,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_7b358a45();
+init_app_a365b8df();
 
 // .svelte-kit/netlify/entry.js
 init();

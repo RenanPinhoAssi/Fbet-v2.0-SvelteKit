@@ -1,4 +1,8 @@
 <script>
+	import '../static/styles/color_setup.css';
+	import '../static/styles/global_style.css';
+	import '../static/styles/user_style.css';
+
 	import Header from '../components/global/Header.svelte';
 	import { page } from '$app/stores';
 
