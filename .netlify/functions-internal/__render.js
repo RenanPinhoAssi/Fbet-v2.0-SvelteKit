@@ -4696,12 +4696,12 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/stores-9fcc73a2.js
+// .svelte-kit/output/server/chunks/stores-3ef77e48.js
 var getStores, page;
-var init_stores_9fcc73a2 = __esm({
-  ".svelte-kit/output/server/chunks/stores-9fcc73a2.js"() {
+var init_stores_3ef77e48 = __esm({
+  ".svelte-kit/output/server/chunks/stores-3ef77e48.js"() {
     init_shims();
-    init_app_e2ce9b36();
+    init_app_d7b5d389();
     getStores = () => {
       const stores = getContext("__svelte__");
       return {
@@ -4729,17 +4729,17 @@ var init_stores_9fcc73a2 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-c3e716e1.js
-var layout_c3e716e1_exports = {};
-__export(layout_c3e716e1_exports, {
+// .svelte-kit/output/server/chunks/__layout-a32b0885.js
+var layout_a32b0885_exports = {};
+__export(layout_a32b0885_exports, {
   default: () => _layout
 });
 var Header, _layout;
-var init_layout_c3e716e1 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-c3e716e1.js"() {
+var init_layout_a32b0885 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-a32b0885.js"() {
     init_shims();
-    init_app_e2ce9b36();
-    init_stores_9fcc73a2();
+    init_app_d7b5d389();
+    init_stores_3ef77e48();
     Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { visible } = $$props;
       if ($$props.visible === void 0 && $$bindings.visible && visible !== void 0)
@@ -4762,9 +4762,9 @@ var init_layout_c3e716e1 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/error-8ccc77fa.js
-var error_8ccc77fa_exports = {};
-__export(error_8ccc77fa_exports, {
+// .svelte-kit/output/server/chunks/error-6d145298.js
+var error_6d145298_exports = {};
+__export(error_6d145298_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4772,10 +4772,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_8ccc77fa = __esm({
-  ".svelte-kit/output/server/chunks/error-8ccc77fa.js"() {
+var init_error_6d145298 = __esm({
+  ".svelte-kit/output/server/chunks/error-6d145298.js"() {
     init_shims();
-    init_app_e2ce9b36();
+    init_app_d7b5d389();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4795,12 +4795,12 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/section_identifier-1253e4f2.js
+// .svelte-kit/output/server/chunks/section_identifier-cb27d0d5.js
 var Section_identifier;
-var init_section_identifier_1253e4f2 = __esm({
-  ".svelte-kit/output/server/chunks/section_identifier-1253e4f2.js"() {
+var init_section_identifier_cb27d0d5 = __esm({
+  ".svelte-kit/output/server/chunks/section_identifier-cb27d0d5.js"() {
     init_shims();
-    init_app_e2ce9b36();
+    init_app_d7b5d389();
     Section_identifier = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { section_name = "" } = $$props;
       let { section_description = "" } = $$props;
@@ -4821,17 +4821,17 @@ var init_section_identifier_1253e4f2 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/index-24173a06.js
-var index_24173a06_exports = {};
-__export(index_24173a06_exports, {
+// .svelte-kit/output/server/chunks/index-d41b6afa.js
+var index_d41b6afa_exports = {};
+__export(index_d41b6afa_exports, {
   default: () => Tournaments
 });
 var Tourney_card, Tournaments;
-var init_index_24173a06 = __esm({
-  ".svelte-kit/output/server/chunks/index-24173a06.js"() {
+var init_index_d41b6afa = __esm({
+  ".svelte-kit/output/server/chunks/index-d41b6afa.js"() {
     init_shims();
-    init_app_e2ce9b36();
-    init_section_identifier_1253e4f2();
+    init_app_d7b5d389();
+    init_section_identifier_cb27d0d5();
     Tourney_card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { tourney_info } = $$props;
       let tourney_users = [];
@@ -4861,18 +4861,18 @@ var init_index_24173a06 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-ec600130.js
-var tourney_ec600130_exports = {};
-__export(tourney_ec600130_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-92945429.js
+var tourney_92945429_exports = {};
+__export(tourney_92945429_exports, {
   default: () => U5Btourneyu5D
 });
 var Grandprix_card, U5Btourneyu5D;
-var init_tourney_ec600130 = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-ec600130.js"() {
+var init_tourney_92945429 = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-92945429.js"() {
     init_shims();
-    init_app_e2ce9b36();
-    init_stores_9fcc73a2();
-    init_section_identifier_1253e4f2();
+    init_app_d7b5d389();
+    init_stores_3ef77e48();
+    init_section_identifier_cb27d0d5();
     Grandprix_card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { grandprix_info } = $$props;
       let { tourney_id } = $$props;
@@ -4916,12 +4916,12 @@ var init_tourney_ec600130 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/short_identifier-48f42b4c.js
+// .svelte-kit/output/server/chunks/short_identifier-12f76541.js
 var Short_identifier;
-var init_short_identifier_48f42b4c = __esm({
-  ".svelte-kit/output/server/chunks/short_identifier-48f42b4c.js"() {
+var init_short_identifier_12f76541 = __esm({
+  ".svelte-kit/output/server/chunks/short_identifier-12f76541.js"() {
     init_shims();
-    init_app_e2ce9b36();
+    init_app_d7b5d389();
     Short_identifier = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { name } = $$props;
       if ($$props.name === void 0 && $$bindings.name && name !== void 0)
@@ -4931,19 +4931,19 @@ var init_short_identifier_48f42b4c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-b17e7233.js
-var tourney_grandprix_b17e7233_exports = {};
-__export(tourney_grandprix_b17e7233_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-182266b6.js
+var tourney_grandprix_182266b6_exports = {};
+__export(tourney_grandprix_182266b6_exports, {
   default: () => U5Btourneyu5D_u5Bgrandprixu5D
 });
 var Result_slot, U5Btourneyu5D_u5Bgrandprixu5D;
-var init_tourney_grandprix_b17e7233 = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-b17e7233.js"() {
+var init_tourney_grandprix_182266b6 = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-182266b6.js"() {
     init_shims();
-    init_app_e2ce9b36();
-    init_stores_9fcc73a2();
-    init_section_identifier_1253e4f2();
-    init_short_identifier_48f42b4c();
+    init_app_d7b5d389();
+    init_stores_3ef77e48();
+    init_section_identifier_cb27d0d5();
+    init_short_identifier_12f76541();
     Result_slot = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { choice_pilot = "" } = $$props;
       let { pilots_choice_name_by_id = {} } = $$props;
@@ -5009,16 +5009,16 @@ var init_tourney_grandprix_b17e7233 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/index-4bd26b6b.js
-var index_4bd26b6b_exports = {};
-__export(index_4bd26b6b_exports, {
+// .svelte-kit/output/server/chunks/index-6c10d6b2.js
+var index_6c10d6b2_exports = {};
+__export(index_6c10d6b2_exports, {
   default: () => Login
 });
 var Login;
-var init_index_4bd26b6b = __esm({
-  ".svelte-kit/output/server/chunks/index-4bd26b6b.js"() {
+var init_index_6c10d6b2 = __esm({
+  ".svelte-kit/output/server/chunks/index-6c10d6b2.js"() {
     init_shims();
-    init_app_e2ce9b36();
+    init_app_d7b5d389();
     Login = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let account = {
         username: "Tester",
@@ -5044,19 +5044,19 @@ var init_index_4bd26b6b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-f5e6e08c.js
-var tourney_grandprix_f5e6e08c_exports = {};
-__export(tourney_grandprix_f5e6e08c_exports, {
+// .svelte-kit/output/server/chunks/_tourney_-_grandprix_-4598b14a.js
+var tourney_grandprix_4598b14a_exports = {};
+__export(tourney_grandprix_4598b14a_exports, {
   default: () => U5Btourneyu5D_u5Bgrandprixu5D2
 });
 var Pole_position_slot, position_suffix, Race_position_slot, U5Btourneyu5D_u5Bgrandprixu5D2;
-var init_tourney_grandprix_f5e6e08c = __esm({
-  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-f5e6e08c.js"() {
+var init_tourney_grandprix_4598b14a = __esm({
+  ".svelte-kit/output/server/chunks/_tourney_-_grandprix_-4598b14a.js"() {
     init_shims();
-    init_app_e2ce9b36();
-    init_stores_9fcc73a2();
-    init_section_identifier_1253e4f2();
-    init_short_identifier_48f42b4c();
+    init_app_d7b5d389();
+    init_stores_3ef77e48();
+    init_section_identifier_cb27d0d5();
+    init_short_identifier_12f76541();
     Pole_position_slot = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { choice_pilot = "" } = $$props;
       let { pilots = [] } = $$props;
@@ -5178,7 +5178,7 @@ var init_tourney_grandprix_f5e6e08c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-e2ce9b36.js
+// .svelte-kit/output/server/chunks/app-d7b5d389.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -6514,8 +6514,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, absolute, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css, Root, base, assets, user_hooks, template, options, default_settings, d, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_e2ce9b36 = __esm({
-  ".svelte-kit/output/server/chunks/app-e2ce9b36.js"() {
+var init_app_d7b5d389 = __esm({
+  ".svelte-kit/output/server/chunks/app-d7b5d389.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -6677,7 +6677,7 @@ ${``}`;
       __proto__: null,
       [Symbol.toStringTag]: "Module"
     });
-    template = ({ head, body }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n\r\n<head>\r\n	<meta charset="utf-8" />\r\n	<link rel="icon" href="/images/content/logo.png" />\r\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />\r\n	<link rel="stylesheet" href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/elec.min.css" />\r\n\r\n	<link rel="stylesheet" href="src/lib/styles/color_setup.css" />\r\n	<link rel="stylesheet" href="src/lib/styles/global_style.css" />\r\n	<link rel="stylesheet" href="src/lib/styles/user_style.css" />\r\n\r\n	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"><\/script>\r\n	<script src="src/lib/scripts/global/global.js"><\/script>\r\n	<script src="src/lib/scripts/user/ready.js"><\/script>\r\n</head>\r\n\r\n<body>\r\n\r\n	' + head + '\r\n	<div id="svelte">' + body + "</div>\r\n</body>\r\n\r\n</html>";
+    template = ({ head, body }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n\r\n<head>\r\n	<meta charset="utf-8" />\r\n	<link rel="icon" href="/images/content/logo.png" />\r\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />\r\n	<link rel="stylesheet" href="https://generalwebsolutions.com.br/ELC-Easy-Constructor-Framework/dist/css/theme/elec.min.css" />\r\n\r\n	<link rel="stylesheet" href="src/static/styles/color_setup.css" />\r\n	<link rel="stylesheet" href="src/static/styles/global_style.css" />\r\n	<link rel="stylesheet" href="src/static/styles/user_style.css" />\r\n\r\n	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"><\/script>\r\n	<script src="src/static/scripts/global/global.js"><\/script>\r\n	<script src="src/static/scripts/user/ready.js"><\/script>\r\n</head>\r\n\r\n<body>\r\n\r\n	' + head + '\r\n	<div id="svelte">' + body + "</div>\r\n</body>\r\n\r\n</html>";
     options = null;
     default_settings = { paths: { "base": "", "assets": "" } };
     d = (s2) => s2.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
@@ -6731,13 +6731,13 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_c3e716e1(), layout_c3e716e1_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_8ccc77fa(), error_8ccc77fa_exports)),
-      "src/routes/tournaments/index.svelte": () => Promise.resolve().then(() => (init_index_24173a06(), index_24173a06_exports)),
-      "src/routes/schedule/[tourney].svelte": () => Promise.resolve().then(() => (init_tourney_ec600130(), tourney_ec600130_exports)),
-      "src/routes/results/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_b17e7233(), tourney_grandprix_b17e7233_exports)),
-      "src/routes/login/index.svelte": () => Promise.resolve().then(() => (init_index_4bd26b6b(), index_4bd26b6b_exports)),
-      "src/routes/bet/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_f5e6e08c(), tourney_grandprix_f5e6e08c_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_a32b0885(), layout_a32b0885_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_6d145298(), error_6d145298_exports)),
+      "src/routes/tournaments/index.svelte": () => Promise.resolve().then(() => (init_index_d41b6afa(), index_d41b6afa_exports)),
+      "src/routes/schedule/[tourney].svelte": () => Promise.resolve().then(() => (init_tourney_92945429(), tourney_92945429_exports)),
+      "src/routes/results/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_182266b6(), tourney_grandprix_182266b6_exports)),
+      "src/routes/login/index.svelte": () => Promise.resolve().then(() => (init_index_6c10d6b2(), index_6c10d6b2_exports)),
+      "src/routes/bet/[tourney]-[grandprix].svelte": () => Promise.resolve().then(() => (init_tourney_grandprix_4598b14a(), tourney_grandprix_4598b14a_exports))
     };
     metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-dbdf601f.js", "css": [], "js": ["pages/__layout.svelte-dbdf601f.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-b886fd37.js", "css": [], "js": ["error.svelte-b886fd37.js", "chunks/vendor-16719633.js"], "styles": [] }, "src/routes/tournaments/index.svelte": { "entry": "pages/tournaments/index.svelte-12da326b.js", "css": [], "js": ["pages/tournaments/index.svelte-12da326b.js", "chunks/vendor-16719633.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/schedule/[tourney].svelte": { "entry": "pages/schedule/_tourney_.svelte-ac200376.js", "css": [], "js": ["pages/schedule/_tourney_.svelte-ac200376.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/results/[tourney]-[grandprix].svelte": { "entry": "pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "css": [], "js": ["pages/results/_tourney_-_grandprix_.svelte-4f0eb73f.js", "chunks/vendor-16719633.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/short_identifier-8530adf6.js"], "styles": [] }, "src/routes/login/index.svelte": { "entry": "pages/login/index.svelte-8229bb27.js", "css": [], "js": ["pages/login/index.svelte-8229bb27.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js"], "styles": [] }, "src/routes/bet/[tourney]-[grandprix].svelte": { "entry": "pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "css": [], "js": ["pages/bet/_tourney_-_grandprix_.svelte-3899a717.js", "chunks/vendor-16719633.js", "chunks/navigation-51f4a605.js", "chunks/singletons-12a22614.js", "chunks/stores-812c3898.js", "chunks/section_identifier-93ba9738.js", "chunks/short_identifier-8530adf6.js"], "styles": [] } };
   }
@@ -6751,7 +6751,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_e2ce9b36();
+init_app_d7b5d389();
 
 // .svelte-kit/netlify/entry.js
 init();
