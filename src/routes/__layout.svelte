@@ -13,6 +13,16 @@
 	};
 </script>
 
+
+<svelte:head>
+	<link rel="stylesheet" href="src/lib/styles/color_setup.css" />
+	<link rel="stylesheet" href="src/lib/styles/global_style.css" />
+	<link rel="stylesheet" href="src/lib/styles/user_style.css" />
+
+	<script src="src/lib/scripts/global/global.js"></script>
+	<script src="src/lib/scripts/user/ready.js"></script>
+</svelte:head>
+
 <Header visible={menu_on} />
 
 <main>
