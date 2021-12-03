@@ -1,1 +1,0 @@
-stored_token = localStorage.getItem('token');
