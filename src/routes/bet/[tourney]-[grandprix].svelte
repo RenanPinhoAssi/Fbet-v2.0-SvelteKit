@@ -1,12 +1,13 @@
 <script>
-	import { onMount } from 'svelte';
+	import { api_base_url, stored_token } from '$lib/global.js';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
-	import SectionIdentifier from '../../components/global/section_identifier.svelte';
-	import ShortIdentifier from '../../components/global/short_identifier.svelte';
-	import PolePositionSlot from '../../components/bet/pole_position_slot.svelte';
-	import RacePositionSlot from '../../components/bet/race_position_slot.svelte';
+	import SectionIdentifier from '$lib/global/section_identifier.svelte';
+	import ShortIdentifier from '$lib/global/short_identifier.svelte';
+	import PolePositionSlot from '$lib/bet/pole_position_slot.svelte';
+	import RacePositionSlot from '$lib/bet/race_position_slot.svelte';
 
 	let pilots = [];
 	let pilots_choice_name_by_id = {};
@@ -141,7 +142,7 @@
 		' - ' +
 		grandprix_info['name']}
 	return_button_route_name="Cronograma"
-	return_button_route_src={"/schedule/"+tourney_id}
+	return_button_route_src={'/schedule/' + tourney_id}
 />
 
 <section class="container-fluid mb-5" id="bet-section">
@@ -185,7 +186,7 @@
 				type="button"
 				class="btn btn-black btn-sm mb-1 w-100"
 				on:click={() => {
-					goto("/schedule/"+tourney_id);
+					goto('/schedule/' + tourney_id);
 				}}
 			>
 				Voltar ao cronograma

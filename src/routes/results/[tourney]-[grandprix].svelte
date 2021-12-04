@@ -1,10 +1,11 @@
 <script>
-	import { onMount } from 'svelte';
+	import { api_base_url, stored_token } from '$lib/global.js';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
-	import SectionIdentifier from '../../components/global/section_identifier.svelte';
-	import ShortIdentifier from '../../components/global/short_identifier.svelte';
-	import ResultSlot from '../../components/results/result_slot.svelte';
+	import SectionIdentifier from '../$lib/global/section_identifier.svelte';
+	import ShortIdentifier from '../$lib/global/short_identifier.svelte';
+	import ResultSlot from '../$lib/results/result_slot.svelte';
 
 	let pilots = [];
 	let pilots_choice_name_by_id = {};
@@ -102,7 +103,7 @@
 		' - ' +
 		grandprix_info['name']}
 	return_button_route_name="Cronograma"
-	return_button_route_src={"/schedule/"+tourney_id}
+	return_button_route_src={'/schedule/' + tourney_id}
 />
 
 <section class="container-fluid mb-5" id="info-section">

@@ -1,4 +1,5 @@
 <script>
+	import { api_base_url, stored_token } from '$lib/global.js';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 

@@ -1,7 +1,10 @@
 <script>
-	import Header from '../components/global/Header.svelte';
+	import Header from '$lib/global/Header.svelte';
 	import { page } from '$app/stores';
-	
+	import '../styles/global_style.css';
+	import '../styles/color_setup.css';
+	import '../styles/user_style.css';
+
 	let menu_on = true;
 
 	let control_menu = function () {
