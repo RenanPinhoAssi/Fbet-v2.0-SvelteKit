@@ -1,7 +1,8 @@
 <script>
+	import SectionIdentifier from '$lib/global/section_identifier.svelte';
+	import TourneyCard from '$lib/tournaments/tourney_card.svelte';
+	import { api_base_url, stored_token } from '$lib/global.js';
 	import { onMount } from 'svelte';
-	import SectionIdentifier from '../../components/global/section_identifier.svelte';
-	import TourneyCard from '../../components/tournaments/tourney_card.svelte';
 
 	let tourneys = [];
 

@@ -1,9 +1,10 @@
 <script>
-	import { onMount } from 'svelte';
+	import { api_base_url, stored_token } from '$lib/global.js';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
-	import SectionIdentifier from '../../components/global/section_identifier.svelte';
-	import GrandPrix from '../../components/schedule/grandprix_card.svelte';
+	import SectionIdentifier from '../$lib/global/section_identifier.svelte';
+	import GrandPrix from '../$lib/schedule/grandprix_card.svelte';
 
 	let tourney_id;
 	let grandsprix = [];
@@ -51,7 +52,7 @@
 		<div class="col-sm-10 mx-auto">
 			<div class="row" id="tracks-container">
 				{#each grandsprix as grandprix}
-					<GrandPrix grandprix_info={grandprix} tourney_id={tourney_id} />
+					<GrandPrix grandprix_info={grandprix} {tourney_id} />
 				{/each}
 			</div>
 		</div>

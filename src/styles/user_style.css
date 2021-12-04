@@ -6,7 +6,7 @@ t3 {
   font-size: 1rem;
 }
 #f1-background {
-  background-image: url(../../static/images/content/background.jpg);
+  background-image: url(/images/content/background.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -31,7 +31,7 @@ t3 {
 
 .logo-fbet {
   height: 80px;
-  background-image: url(../../static/images/content/logo.png);
+  background-image: url(/images/content/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,7 +56,7 @@ t3 {
   height: 65%;
   width: 40px;
   float: right;
-  background: url(../../static/images/content/button-menu.svg);
+  background: url(/images/content/button-menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -68,7 +68,7 @@ t3 {
   height: 65%;
   width: 40px;
   float: right;
-  background: url(../../static/images/icons/logout.png);
+  background: url(/images/icons/logout.png);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -216,7 +216,7 @@ t3 {
   text-align: center;
 }
 .race-datetime .flag-icon {
-  background: url(../../static/images/icons/race.png);
+  background: url(/images/icons/race.png);
   background-size: cover;
   height: 30px;
   width: 26px;
@@ -227,7 +227,7 @@ t3 {
   text-align: center;
 }
 .classification-datetime .clock-icon {
-  background: url(../../static/images/icons/classification.png);
+  background: url(/images/icons/classification.png);
   background-size: cover;
   height: 30px;
   width: 26px;
@@ -293,7 +293,7 @@ h4 {
 
 .save-icon {
   position: fixed;
-  background: url(../../static/images/icons/save.png);
+  background: url(/images/icons/save.png);
   background-size: cover;
   height: 35px;
   width: 35px;
